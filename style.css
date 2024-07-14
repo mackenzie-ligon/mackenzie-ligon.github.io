@@ -1,0 +1,36 @@
+html{
+  background-color: lightsteelblue;
+  color: navy;
+}
+
+.title{
+  font-family: "Cabin Sketch", cursive;
+  font-size: 40px;
+}
+.header{
+  font-family: "Cabin Sketch", cursive;
+  font-size: 30px;
+}
+
+.sub-header{
+  font-family: "Cabin Sketch", cursive;
+  font-size: 20px;
+}
+
+.text{
+  font-family: "Raleway", cursive;
+  font-size: 14px;
+}
+
+
+.about{
+  background-color: cornflowerblue;
+  text-align: center;
+  border: ridge 7px mediumblue;
+}
+
+.socials{
+  background-color: cornflowerblue;
+  text-align: center;
+  border: ridge 7px mediumblue;
+}
