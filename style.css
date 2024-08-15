@@ -3,6 +3,10 @@ html{
   color: navy;
 }
 
+/*body{
+  background: url("background.png");
+}*/
+
 .title{
   font-family: "Cabin Sketch", cursive;
   font-size: 40px;
