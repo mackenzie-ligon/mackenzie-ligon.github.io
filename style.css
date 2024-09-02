@@ -92,7 +92,7 @@ header {
 .infoblock{
   font-family: "Jost", cursive;
   text-align: center;
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.8);
   width: 40%;
   border-radius: 15px;
   margin: auto;
@@ -134,4 +134,9 @@ header {
   margin-left: 30px;
   width: 30%;
   text-align: center;
+}
+
+.link{
+  color: mediumblue;
+  text-decoration: none;
 }
