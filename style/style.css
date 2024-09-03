@@ -2,13 +2,13 @@
 */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0px;
   padding: 0;
-  background-image: url("./images/img3.PNG");
+  background-image: url("../images/img3.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .aboutbody {
-  background-image: url('images/img2.PNG');
+  background-image: url('../images/img2.PNG');
   color:black;
   backdrop-filter: blur(2px);
 }
@@ -139,4 +139,17 @@ header {
 .link{
   color: mediumblue;
   text-decoration: none;
+}
+
+
+table {
+  margin: inherit;
+  padding: 30px;
+  border-collapse: collapse;
+}
+
+table td {
+  border: solid;
+  text-align: left;
+  padding: 10px;
 }
