@@ -7,7 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://mackenzie-ligon.github.io/style.css">
+  <link rel="stylesheet" href="https://mackenzie-ligon.github.io//style/style.css">
+  <link rel="stylesheet" href="https://mackenzie-ligon.github.io//style/carousel.css">
 </head>
 <header>
   <div class= "navholder">
@@ -25,41 +26,46 @@
 <body>
 <div class="bodydiv">
 <h1 class="header">Projects</h1>
-<div class="infoblock">
-  <h3 class="sub-header">Blueboard - Full Stack Web Application</h3>
-  Role: Backend Developer
-  <ul class="text">
-    <li>Blueboard is an online quiz distribution platform that serves both students and professors.</li>
-    <li>I worked on the backend of the site, managing the server queries to the database and handling the deployment of our site.</li>
-    <li>I used PostgreSQL to query the database to insert and retrieve account information, faciliate account enrollment into courses, and store and retrieve quiz objects.</li>
-    <li>The site is deployed using Fly.io's services.</li>
+<div class="wrapper">
+  <i id="left" class="fa-angle-left"></i>
+  <ul class="carousel">
+    <li class="card">
+        <h3 class="sub-header">Blueboard - Full Stack Web Application</h3>
+        Role: Backend Developer
+        <ul class="text">
+          <li>Blueboard is an online quiz distribution platform that serves both students and professors.</li>
+          <li>I worked on the backend of the site, managing the server queries to the database and handling the deployment of our site.</li>
+          <li>I used PostgreSQL to query the database to insert and retrieve account information, faciliate account enrollment into courses, and store and retrieve quiz objects.</li>
+          <li>The site is deployed using Fly.io's services.</li>
+        </ul>
+        <a class="link" href="https://cs375blueboard.fly.dev">Check it out!</a>
+    </li>
+    <li class="card">
+        <h3 class="sub-header">Catnap - Unity Game</h3>
+        Role: Game Programmer
+        <ul class="text">
+          <li>Our team was given a week and a half to create a GDD and MVP based on information provided in class.</li>
+          <li>I was the sole programmer on the team, and everything is coded in Unity.</li>
+          <li>The game mechanics are simple, but our goal was to create a game that's easy to learn and is fun for hours!</li>
+          <li>I did not have much time to do extensive testing, so there might be some bugs. Sorry!</li>
+        </ul>
+        <a class="link" href="https://mackenzie-ligon.github.io/catnap/tutorial.html">Check it out!</a>
+    </li>
+    <li class="card">
+        <h3 class="sub-header">Fool's Gambit - MVP Project</h3>
+        Role: Backend Developer, Artist
+        <ul class="text">
+          <li>Our team was tasked with creating an MVP utilizing the Agile Development Method. We used a Kanban board to keep track of our tasks, participated in weekly stand-up meetings, and presented our progress at Sprint Reviews at the end of each three week sprint.</li>
+          <li>We decided to make a chess inspired tower defense game, where the chess pieces are the towers, and move according to standard chess piece movement.</li>
+          <li>This game is inspired by Bloons Tower Defense, but key differences are that pieces can be repositioned after landing a certain amount of hits, and the track enemies travel on will change every 8 levels.</li>
+          <li>I was responsible for level design, manually coding all 50 levels, as well as coding all enemy variations and enemy buff effects. I also hand drew all of the sprites for the pieces (including tower upgrade sprites and enemy buff sprites).</li>
+        </ul>
+        <a class="link" href="https://drive.google.com/file/d/1ku73KWGRa8QZSKKoMTmLMivfbljlPj9e/view">Watch our demo!</a>
+    </li>
   </ul>
-  <a class="link" href="https://cs375blueboard.fly.dev">Check it out!</a>
-</div>
-
-<div class="infoblock">
-  <h3 class="sub-header">Catnap - Unity Game</h3>
-  Role: Game Programmer
-  <ul class="text">
-    <li>Our team was given a week and a half to create a GDD and MVP based on information provided in class.</li>
-    <li>I was the sole programmer on the team, and everything is coded in Unity.</li>
-    <li>The game mechanics are simple, but our goal was to create a game that's easy to learn and is fun for hours!</li>
-    <li>I did not have much time to do extensive testing, so there might be some bugs. Sorry!</li>
-  </ul>
-  <a class="link" href="https://mackenzie-ligon.github.io/catnap/tutorial.html">Check it out!</a>
-</div>
-
-<div class="infoblock">
-  <h3 class="sub-header">Fool's Gambit - MVP Project</h3>
-  Role: Backend Developer, Artist
-  <ul class="text">
-    <li>Our team was tasked with creating an MVP utilizing the Agile Development Method. We used a Kanban board to keep track of our tasks, participated in weekly stand-up meetings, and presented our progress at Sprint Reviews at the end of each three week sprint.</li>
-    <li>We decided to make a chess inspired tower defense game, where the chess pieces are the towers, and move according to standard chess piece movement.</li>
-    <li>This game is inspired by Bloons Tower Defense, but key differences are that pieces can be repositioned after landing a certain amount of hits, and the track enemies travel on will change every 8 levels.</li>
-    <li>I was responsible for level design, manually coding all 50 levels, as well as coding all enemy variations and enemy buff effects. I also hand drew all of the sprites for the pieces (including tower upgrade sprites and enemy buff sprites).</li>
-  </ul>
-  <a class="link" href="https://drive.google.com/file/d/1ku73KWGRa8QZSKKoMTmLMivfbljlPj9e/view">Watch our demo!</a>
+  <i id="right" class="fa-angle-right"></i>
 </div>
 </div>
+<script src="./scripts/carousel.js"></script>
 </body>
 </html>
